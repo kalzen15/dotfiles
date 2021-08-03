@@ -1,0 +1,26 @@
+[user]
+	name = Calvin Dsouza
+	email = 37261038+kalzen15@users.noreply.github.com
+[color]
+	ui = auto
+[alias]
+  a = add
+  aa = add --all
+  amend = commit --amend
+  b = branch
+  bb = branch -a
+  bd = branch -d
+  cm = commit -m
+  co = checkout
+  d = diff
+  ec = config --global -e
+  l = log --relative-date --graph --abbrev-commit -10
+  ll = log --relative-date --graph --abbrev-commit
+  p = push
+  remotes = remote -v
+  s = status -s
+  sd = d --cached
+  sh = show
+
+[format]
+  pretty = format:%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s

@@ -1,0 +1,38 @@
+
+call plug#begin("~/.vim/plugged")
+"Theme
+Plug 'morhetz/gruvbox'
+"File Explorer
+Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+"Tabs and Bottom bar 
+Plug 'vim-airline/vim-airline'
+"Fuzzy finder 
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+"Autocomplete 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+let g:coc_global_extensions = [
+    \ 'coc-css',
+    \ 'coc-html',
+    \ 'coc-json',
+    \ 'coc-prettier',
+    \ 'coc-tsserver',
+    \ 'coc-snippets',
+    \ 'coc-go'
+    \ ]
+" JavaScript Highlighting
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+"Discord Prescence
+Plug 'andweeb/presence.nvim'
+" TypeScript Highlighting
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+"Git in Vim
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
