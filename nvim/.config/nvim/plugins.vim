@@ -19,6 +19,7 @@ let g:coc_global_extensions = [
     \ 'coc-css',
     \ 'coc-html',
     \ 'coc-json',
+    \ 'coc-flutter',
     \ 'coc-prettier',
     \ 'coc-tsserver',
     \ 'coc-snippets',
