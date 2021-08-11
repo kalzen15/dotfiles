@@ -23,7 +23,8 @@ let g:coc_global_extensions = [
     \ 'coc-prettier',
     \ 'coc-tsserver',
     \ 'coc-snippets',
-    \ 'coc-go'
+    \ 'coc-go',
+    \ 'coc-pyright'
     \ ]
 " JavaScript Highlighting
 Plug 'pangloss/vim-javascript'
