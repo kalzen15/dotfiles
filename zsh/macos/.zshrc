@@ -113,4 +113,4 @@ export PATH="/opt/homebrew/bin:$PATH"
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-alias dotf='/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' 
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
