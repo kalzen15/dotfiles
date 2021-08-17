@@ -8,7 +8,9 @@
     "typescript.tsx",
     "css",
     "Markdown",
-    "html"
+    "html",
+    "dart"
   ],
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+  "flutter.provider.enableSnippet": true
 }
