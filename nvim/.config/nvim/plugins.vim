@@ -38,5 +38,7 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'tpope/vim-fugitive'
 "React Snippets
 Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
+"Dart/Flutter
+Plug 'dart-lang/dart-vim-plugin'
 
 call plug#end()
